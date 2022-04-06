@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: black;
+    
+}
+
+
+
+.container{
+    background-color: black;
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+    
+    
+    
+
+
+.logo{
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    background-color: black;
+    margin-top: 42px;
+    margin-bottom: 0px;
+   
+}
+    
+
+
+.quem{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    height: 45px;
+    color: white;
+    margin-top: 73px;
+    margin-bottom: 61px;
+
+
+}
+
+.perfil{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 0px;
+
+    background-color: rgb(0, 0, 0);
+    width: 718px;
+    height: 194px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 282px;
+    }
+
+.section_perfil{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 160px;
+    height: 16opx;
+    border: 1px;
+    border-radius: 16px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 21px;
+    overflow: hidden;
+    
+}
+.alinhar_perfil{
+    text-align: center;
+    
+}
+
+.img_perfil{
+    border: 1px solid white;
+    border-radius: 16px;
+    transition: transform 2s;
+}
+
+.img_perfil:hover{
+    
+    transform: scale(1.4);
+    
+}
+
+.vector{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 16px;
+    width:160px;
+    height: 160px;
+    margin: 0px 0px 16px 0px;
+    opacity: 0.5;
+      
+    
+}
+.vector:hover{
+    opacity: 1;
+}
+
+.posição_vector{
+    position: absolute;
+    
+}
+
+
+
+.perfil a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.btn_section{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background-color: transparent;
+    margin-top: 98px;
+
+}
+
+.btn_perfil{
+   
+    background-color: transparent;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    width: 206px;
+    height: 50px;
+    
+
+}
+
+.btn_perfil a{
+    text-decoration: none;
+}
+
+.btn_perfil a:visited{
+    color: #fff;
+}
+
+.btn_perfil:hover{
+   background-color: #fff;
+   color: #000;
+   font-weight: bold;
+}
+
